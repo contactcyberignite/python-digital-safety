@@ -1,16 +1,10 @@
 # Digital Safety Quiz 
 # Simple quiz using variables and if/else conditions
 
-import os
-import time
 
-# Function to clear screen
-def clear_screen():
-    os.system('cls' if os.name == 'nt' else 'clear')
 
 print("Welcome to the Digital Safety Quiz!")
-print("Let's learn how to stay safe online!")
-print("=" * 40)
+
 
 # Keep track of score
 score = 0
@@ -23,7 +17,7 @@ print("B) Being mean to someone using computers, phones, or the internet")
 print("C) Learning new things on the computer")
 print("D) Being safe online")
 
-answer1 = input("\nYour answer (A, B, C, or D): ").upper()
+answer1 = input("\nYour answer (A, B, C, or D): ")
 
 if answer1 == "D":
     print("Correct! Great job!")
@@ -31,12 +25,7 @@ if answer1 == "D":
 else:
     print("Not quite right. The correct answer is .. D")
 
-print("Digital safety is be safe online.")
-print("-" * 40)
 
-# Wait 3 seconds then clear screen
-time.sleep(3)
-clear_screen()
 
 # Question 2
 print("\nQuestion 2:")
@@ -45,8 +34,7 @@ print("A) Send mean messages back to them")
 print("B) Tell a trusted adult like a parent or teacher")
 print("C) Keep it a secret and don't tell anyone")
 print("D) Delete your account immediately")
-
-answer2 = input("\nYour answer (A, B, C, or D): ").upper()
+answer2 = input("\nYour answer (A, B, C, or D): ")
 
 if answer2 == "B":
     print("Correct! Great job!")
@@ -54,22 +42,18 @@ if answer2 == "B":
 else:
     print("Not quite right. The correct answer is B")
 
-print("Always tell a trusted adult when someone is being mean to you online. They can help you!")
-print("-" * 40)
 
-# Wait 3 seconds then clear screen
-time.sleep(3)
-clear_screen()
+
 
 # Question 3
 print("\nQuestion 3:")
 print("Which of these is an example of cyber bullying?")
 print("A) Sending a nice birthday message")
 print("B) Sharing homework help with a classmate")
-print("C) Posting mean comments without permission")
+print("C) Posting a mean comment about someone without permission")
 print("D) Playing online games together")
 
-answer3 = input("\nYour answer (A, B, C, or D): ").upper()
+answer3 = input("\nYour answer (A, B, C, or D): ")
 
 if answer3 == "C":
     print("Correct! Great job!")
@@ -77,12 +61,7 @@ if answer3 == "C":
 else:
     print("Not quite right. The correct answer is C")
 
-print("Posting mean comments without permission is a form of cyber bullying.")
-print("-" * 40)
 
-# Wait 3 seconds then clear screen
-time.sleep(3)
-clear_screen()
 
 # Question 4
 print("\nQuestion 4:")
@@ -92,7 +71,7 @@ print("B) Join in and be mean too")
 print("C) Tell a trusted adult and try to help the person being bullied")
 print("D) Laugh at what's happening")
 
-answer4 = input("\nYour answer (A, B, C, or D): ").upper()
+answer4 = input("\nYour answer (A, B, C, or D): ")
 
 if answer4 == "C":
     print("Correct! Great job!")
@@ -100,12 +79,7 @@ if answer4 == "C":
 else:
     print("Not quite right. The correct answer is C")
 
-print("Be a good friend and helper! Tell an adult and support the person being bullied.")
-print("-" * 40)
 
-# Wait 3 seconds then clear screen
-time.sleep(3)
-clear_screen()
 
 # Question 5
 print("\nQuestion 5:")
@@ -115,7 +89,7 @@ print("B) Never tell your parents what you do online")
 print("C) Be kind to others and keep your personal information private")
 print("D) Accept friend requests from strangers")
 
-answer5 = input("\nYour answer (A, B, C, or D): ").upper()
+answer5 = input("\nYour answer (A, B, C, or D): ")
 
 if answer5 == "C":
     print("Correct! Great job!")
@@ -123,8 +97,7 @@ if answer5 == "C":
 else:
     print("Not quite right. The correct answer is C")
 
-print("Being kind and keeping your personal information safe helps protect you and others online!")
-print("-" * 40)
+
 
 # Show final results
 print("\nQuiz Complete!")
@@ -142,5 +115,5 @@ elif score == 2:
 else:
     print("Keep trying! Every question helps you learn something new!")
 
-print("\nRemember: Always be kind online and tell a trusted adult if someone is being mean to you!")
+print("Remember: Always be kind online and tell a trusted adult if someone is being mean to you!")
 print("Stay safe and have fun on the internet!")
